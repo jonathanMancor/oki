@@ -1583,6 +1583,10 @@ function animate(){
 
 
 
+  
+
+
+
 
 
   ctxP.drawImage(playerSprite, player.width * player.frameX, player.height * player.frameY, player.width, player.height,      player.x, player.y, player.width, player.height);

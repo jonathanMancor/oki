@@ -7,7 +7,10 @@ const battlefieldBg = document.getElementById('battlefieldfBg');
 const ctxBf = battlefieldBg.getContext('2d');
 
 $(document).ready(function() {
+  setupBattleFieldMenu();
   requestAnimationFrame(animate);
+  interactBundle();
+  battlefieldGridDivPlacementBundle();
  });
 
 
@@ -373,3 +376,18 @@ function animate(){
   requestAnimationFrame(animate);
 }
 animate();
+
+
+
+
+var bfMenuPage = 'initial';
+
+function setupBattleFieldMenu() {
+  //resetBfMenu();
+
+
+
+  if(bfMenuPage == 'initial'){
+
+  }
+}

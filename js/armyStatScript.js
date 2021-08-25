@@ -7,13 +7,6 @@ $(document).ready(function() {
   setArmyStats();
   setAllUnitStats();
   setupDivisions();
-  interactBundle();
-  battlefieldGridDivPlacementBundle();
-
-
-  //interact(division05);
-
-  //setDivisonStats(emptyPool,division00);
  });
 
 var garrison = {

@@ -175,9 +175,51 @@ input{
   justify-content: center;
   margin: auto;
 }
+/*Battlefield menu-------------------------------*/
+
+
+#battlefieldMenuCntr{
+  width: 30%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#battlefieldMenuCntr button{
+  width: 45%;
+  min-width: 100px;
+  height: 45%;
+  margin: auto;
+  border: 3px solid;
+}
 
 
 
+
+
+
+
+#armyHealthCntr{
+  height: 100%;
+  width: 10%;
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#armyHealthCntr h2{
+  width: 100%;
+  text-align: center;
+}
+
+.divHealth{
+  height: 20%;
+  width: 23%;
+  border: 3px solid;
+  margin: auto;
+  font-size: 1.6em
+}
 
 
 
@@ -858,7 +900,7 @@ overflow-x: hidden;
   display: flex;
   width: 1920px;
   height: 480px;
-  margin: 20px auto 0 auto;
+  margin: 5px auto 0 auto;
   background: none;
   background-repeat: no-repeat;
   background-size: cover;
@@ -871,7 +913,7 @@ display: flex;
 position: absolute;
 width: 1920px;
 height: 480px;
-margin: 20px auto 0 auto;
+margin: 5px auto 0 auto;
 }
 
 #battleGrid .bf-col{
@@ -933,7 +975,10 @@ margin: 20px auto 0 auto;
   font-size: 0.8em;
 }
 
-#divisionStats
+
+
+
+
 
 
 

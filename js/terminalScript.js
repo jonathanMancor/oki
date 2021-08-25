@@ -4,7 +4,7 @@ const palette =
   pinkRgb : '238,45,123,',
 
   green: '#53d39b',
-  
+
   yellow: '#fbb041'
 }
 
@@ -125,9 +125,13 @@ if(terminalPage == 'cc' && terminalState == true){
 
 if(terminalPage == 'cy' && terminalState == true){
   $('#bunkerCourtyard').css('display', 'flex');
-  setCoreBtn(3,0,'0','#',2,3,1,'Provisions','Battlefield');
+  currentRoom = 'bf';
+  setCoreBtn(3,0,'0','bf',2,3,1,'Provisions','Battlefield');
 
 }
+
+
+
 }
 
 
@@ -154,6 +158,9 @@ function closeTerminal(){
   }
   orientCameraLayers();
 }
+
+
+
 
 
 
